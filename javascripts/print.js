@@ -1,4 +1,4 @@
-
+        //link with print html file
 alert("Hello would");
 // document.write("Hello would,Iam Ahamed Noyon");
 // console.log("10");
@@ -12,3 +12,5 @@ document.write("address : uttara <br/>");
 document.write("phone : 01888475550 <br/>");
 document.write("skills : Jonior web developer <br/>");
 document.write("Name : Ahammed Noyon");
+
+
