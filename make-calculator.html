@@ -12,26 +12,54 @@
 
     <script>
 
-        var enterF=" first number : 20";
-        var enterL=" last number : 20";
-        document.write(enterF + "<br/>"+ enterL + "<br/>"+ "<br/>"+ "<br/>")
+        //task 3
+
+        // var enterF=" first number : 20";
+        // var enterL=" last number : 20";
+        // document.write(enterF + "<br/>"+ enterL + "<br/>"+ "<br/>"+ "<br/>")
 
 
-        var firstNumber=20;
-        var lastNumber=10;
-        var Addition ,minus, intro, divided, modulus;
-            Addition= firstNumber + lastNumber;
-            minus=firstNumber - lastNumber;
-            intro=firstNumber * lastNumber;
-            divided=firstNumber / lastNumber;
-            modulus=firstNumber % lastNumber;
+        //basic style 
+
+        // var firstNumber=20;
+        // var lastNumber=10;
+        // var Addition ,minus, intro, divided, modulus;
+        //     Addition= firstNumber + lastNumber;
+        //     minus=firstNumber - lastNumber;
+        //     intro=firstNumber * lastNumber;
+        //     divided=firstNumber / lastNumber;
+        //     modulus=firstNumber % lastNumber;
         
-        document.write("20 + 10 = "+ Addition + "<br/>");
-        document.write("20 - 10 = "+ minus + "<br/>");
-        document.write("20 * 10 = "+ intro + "<br/>");
-        document.write("20 / 10 = "+ divided + "<br/>");
-        document.write("20 % 10 = "+ modulus);
+        // document.write("20 + 10 = "+ Addition + "<br/>");
+        // document.write("20 - 10 = "+ minus + "<br/>");
+        // document.write("20 * 10 = "+ intro + "<br/>");
+        // document.write("20 / 10 = "+ divided + "<br/>");
+        // document.write("20 % 10 = "+ modulus);
             
+
+
+        //advance style
+
+        var firstNumber= prompt("Enter first digit: ");
+        var lastNumber = prompt("Enter last digit: ");
+
+
+            firstNumber = parseInt(firstNumber, 10);
+            lastNumber = parseInt(lastNumber, 10);
+
+        var Addition ,minus, intro, divided, modulus;
+
+        Addition=firstNumber + lastNumber;
+        minus=firstNumber - lastNumber;
+        intro=firstNumber * lastNumber;
+        divided=firstNumber / lastNumber;
+        modulus=firstNumber % lastNumber;
+
+        document.write( firstNumber + " + " + lastNumber + " = " + Addition + "<br/>");
+        document.write( firstNumber + " - " + lastNumber + " = " + minus + "<br/>");
+        document.write( firstNumber + " * " + lastNumber + " = " + intro + "<br/>");
+        document.write( firstNumber + " / " + lastNumber + " = " + divided + "<br/>");
+        document.write( firstNumber + " % " + lastNumber + " = " + modulus);
     </script>
 </body>
 </html>
